@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="594.5" y="404.0">capstone.networking.messages.client.Leave</node>
+    <node x="181.0" y="-171.0">capstone.networking.QwirkleClient</node>
+    <node x="604.5" y="768.0">capstone.networking.messages.server.Joined</node>
+    <node x="317.0" y="466.0">capstone.networking.messages.client.GameOver</node>
+    <node x="-52.0" y="16.5">capstone.networking.messages.server.EndGame</node>
+    <node x="-148.0" y="404.0">capstone.networking.messages.client.WaitingForGame</node>
+    <node x="327.0" y="310.0">capstone.networking.messages.Message</node>
+    <node x="1749.5" y="155.0">capstone.Tile.State</node>
+    <node x="532.0" y="-115.5">capstone.Player</node>
+    <node x="1184.5" y="111.0">capstone.Tile.Colour</node>
+    <node x="549.0" y="605.0">capstone.networking.messages.client.SendTurnFinishedMessage</node>
+    <node x="1387.5" y="166.5">capstone.Tile.Position</node>
+    <node x="93.0" y="455.0">capstone.networking.messages.client.Join</node>
+    <node x="-51.0" y="155.0">capstone.networking.messages.client.SetHandle</node>
+    <node x="891.5" y="56.0">capstone.QwirkleModel</node>
+    <node x="697.5" y="-94.0">capstone.networking.QwirkleServer</node>
+    <node x="182.5" y="188.5">capstone.networking.QwirkleClient.ReadThread</node>
+    <node x="341.5" y="188.5">capstone.networking.QwirkleClient.WriteThread</node>
+    <node x="552.5" y="100.0">capstone.networking.Games</node>
+    <node x="317.0" y="644.0">capstone.networking.messages.client.Quit</node>
+    <node x="327.0" y="803.0">capstone.networking.messages.server.HandleSet</node>
+    <node x="1566.5" y="111.0">capstone.Tile.Shape</node>
+    <node x="-138.0" y="573.0">capstone.networking.messages.server.Left</node>
+    <node x="1747.5" y="444.5">capstone.Tile</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="capstone.networking.messages.client.Leave" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="686.0" y="371.5" />
+      <point x="81.5" y="11.5" />
+    </edge>
+    <edge source="capstone.networking.messages.server.EndGame" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-92.5" y="0.0" />
+      <point x="-65.0" y="66.0" />
+      <point x="-65.0" y="319.5" />
+      <point x="-81.5" y="-40.5" />
+    </edge>
+    <edge source="capstone.networking.messages.client.GameOver" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="capstone.networking.messages.server.Left" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="81.5" y="6.5" />
+      <point x="52.5" y="651.5" />
+      <point x="52.5" y="390.0" />
+      <point x="-81.5" y="30.0" />
+    </edge>
+    <edge source="capstone.networking.messages.client.Join" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="5.5" y="-72.0" />
+      <point x="190.0" y="360.0" />
+      <point x="-81.5" y="0.0" />
+    </edge>
+    <edge source="capstone.networking.messages.client.Quit" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-91.5" y="0.0" />
+      <point x="75.5" y="705.0" />
+      <point x="75.5" y="345.0" />
+      <point x="-81.5" y="-15.0" />
+    </edge>
+    <edge source="capstone.Tile.State" target="capstone.Tile" relationship="INNER_CLASS">
+      <point x="-0.0" y="72.0" />
+      <point x="-0.0" y="-82.5" />
+    </edge>
+    <edge source="capstone.Tile.Colour" target="capstone.Tile" relationship="INNER_CLASS">
+      <point x="-0.0" y="116.0" />
+      <point x="1269.0" y="393.0" />
+      <point x="1829.0" y="393.0" />
+      <point x="-0.0" y="-82.5" />
+    </edge>
+    <edge source="capstone.networking.messages.client.SetHandle" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="91.5" y="56.0" />
+      <point x="408.5" y="283.0" />
+      <point x="0.0" y="-50.0" />
+    </edge>
+    <edge source="capstone.networking.messages.server.Joined" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-81.5" y="0.0" />
+      <point x="517.5" y="840.0" />
+      <point x="517.5" y="346.5" />
+      <point x="81.5" y="-13.5" />
+    </edge>
+    <edge source="capstone.networking.messages.server.HandleSet" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-81.5" y="0.0" />
+      <point x="299.5" y="864.0" />
+      <point x="299.5" y="375.0" />
+      <point x="-81.5" y="15.0" />
+    </edge>
+    <edge source="capstone.networking.messages.client.SendTurnFinishedMessage" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-109.0" y="-61.0" />
+      <point x="577.0" y="386.5" />
+      <point x="81.5" y="26.5" />
+    </edge>
+    <edge source="capstone.networking.QwirkleClient.ReadThread" target="capstone.networking.QwirkleClient" relationship="INNER_CLASS">
+      <point x="0.0" y="-38.5" />
+      <point x="248.5" y="147.0" />
+      <point x="328.5" y="147.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="capstone.networking.QwirkleClient.WriteThread" target="capstone.networking.QwirkleClient" relationship="INNER_CLASS">
+      <point x="0.0" y="-38.5" />
+      <point x="408.5" y="147.0" />
+      <point x="328.5" y="147.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="capstone.networking.messages.client.WaitingForGame" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="13.0" y="-61.0" />
+      <point x="-43.5" y="330.0" />
+      <point x="-81.5" y="-30.0" />
+    </edge>
+    <edge source="capstone.Tile.Shape" target="capstone.Tile" relationship="INNER_CLASS">
+      <point x="-0.0" y="116.0" />
+      <point x="1649.0" y="393.0" />
+      <point x="1829.0" y="393.0" />
+      <point x="-0.0" y="-82.5" />
+    </edge>
+    <edge source="capstone.Tile.Position" target="capstone.Tile" relationship="INNER_CLASS">
+      <point x="-0.0" y="60.5" />
+      <point x="1469.0" y="393.0" />
+      <point x="1829.0" y="393.0" />
+      <point x="-0.0" y="-82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="408.5" y="864.0" />
+  <SelectedNodes>
+    <node>capstone.networking.messages.server.Left</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

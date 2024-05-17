@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Qwirkle</string>
+    <string name="Home">Home</string>
+    <string name="Score">Score</string>
+    <string name="turn">\'s turn</string>
+    <string name="Swap">Swap</string>
+    <string name="Swapping">Swapping</string>
+    <string name="Connect">Connect</string>
+    <string name="StartLocalGame">Start local game</string>
+    <string name="NumPlayers">No. of players</string>
+    <string name="EndTurn">End turn</string>
+    <string name="Waiting">Waiting...</string>
+    <string name="Handle">Handle:</string>
+    <string name="NothingDone">Place or swap tiles.</string>
+    <string name="Wins">wins</string>
+    <string name="Player">Player</string>
+    <string name="Left"> has left the game.</string>
+</resources>

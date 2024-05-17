@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qwirkel</string>
+    <string name="Home">Tuis</string>
+    <string name="Score">Telling</string>
+    <string name="turn">" se beurt"</string>
+    <string name="Swap">Ruil</string>
+    <string name="Swapping">Besig om te ruil</string>
+    <string name="Connect">Konekteer</string>
+    <string name="StartLocalGame">Begin plaaslike speletjie</string>
+    <string name="NumPlayers">No. van spelers</string>
+    <string name="EndTurn">Beeindig beurt</string>
+    <string name="Waiting">Wag vir spelers...</string>
+    <string name="Handle">Naam:</string>
+    <string name="NothingDone">Plaas of ruil teëls.</string>
+    <string name="Wins">wen</string>
+    <string name="Player">Speler</string>
+    <string name="Left">" het die speletjie verlaat."</string>
+    <string name="CannotConnect">Kan nie konnekteer nie</string>
+</resources>

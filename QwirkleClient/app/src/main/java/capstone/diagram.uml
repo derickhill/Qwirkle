@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-82.74999999999994" y="-500.12500000000006">capstone.networking.messages.server.Left</node>
+    <node x="143.33333333333331" y="-486.58333333333337">capstone.networking.messages.server.Joined</node>
+    <node x="172.0000000000001" y="-328.9166666666667">capstone.networking.messages.server.HandleSet</node>
+    <node x="435.0" y="261.5">capstone.networking.QwirkleClient.ReadThread</node>
+    <node x="-254.83333333333337" y="6.5">capstone.networking.messages.client.Join</node>
+    <node x="-254.83333333333337" y="-117.83333333333331">capstone.networking.messages.client.GameOver</node>
+    <node x="594.0" y="261.5">capstone.networking.QwirkleClient.WriteThread</node>
+    <node x="-398.66666666666674" y="153.83333333333331">capstone.networking.messages.client.SendTurnFinishedMessage</node>
+    <node x="433.0" y="-171.0">capstone.networking.QwirkleClient</node>
+    <node x="32.50000000000006" y="250.0">capstone.networking.messages.client.Quit</node>
+    <node x="190.41666666666674" y="-171.0">capstone.networking.messages.MessageReceiver</node>
+    <node x="-152.66666666666674" y="269.83333333333337">capstone.networking.messages.client.SetHandle</node>
+    <node x="-370.75" y="278.16666666666663">capstone.networking.messages.client.WaitingForGame</node>
+    <node x="-64.50000000000006" y="120.0">capstone.networking.messages.client.Leave</node>
+    <node x="-3.1666666666666856" y="-171.0">capstone.networking.messages.Message</node>
+    <node x="-41.666666666666686" y="-317.4166666666667">capstone.networking.messages.server.EndGame</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="capstone.networking.messages.client.Leave" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-74.0" y="-50.0" />
+      <point x="-57.00000000000006" y="-72.0" />
+      <point x="121.33333333333331" y="-72.0" />
+      <point x="43.0" y="38.5" />
+    </edge>
+    <edge source="capstone.networking.messages.server.EndGame" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="49.5" />
+      <point x="50.833333333333314" y="-194.70833333333337" />
+      <point x="-60.95833333333337" y="-194.70833333333337" />
+      <point x="-60.95833333333337" y="-162.5" />
+      <point x="-81.5" y="-30.0" />
+    </edge>
+    <edge source="capstone.networking.messages.client.GameOver" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-49.5" />
+      <point x="-159.83333333333337" y="-132.5" />
+      <point x="-81.5" y="-0.0" />
+    </edge>
+    <edge source="capstone.networking.messages.server.Left" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-81.5" y="-26.333333333333314" />
+      <point x="-116.25000000000006" y="-454.45833333333337" />
+      <point x="-116.25000000000006" y="-187.50000000000006" />
+      <point x="48.333333333333314" y="-187.50000000000006" />
+      <point x="-30.0" y="38.5" />
+    </edge>
+    <edge source="capstone.networking.messages.client.Join" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-81.5" y="-0.0" />
+      <point x="78.33333333333331" y="67.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="capstone.networking.messages.client.Quit" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="-50.0" />
+      <point x="114.00000000000006" y="-99.5" />
+      <point x="81.5" y="33.0" />
+    </edge>
+    <edge source="capstone.networking.messages.client.SetHandle" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-81.5" y="-0.0" />
+      <point x="136.33333333333331" y="330.83333333333337" />
+      <point x="58.0" y="38.5" />
+    </edge>
+    <edge source="capstone.networking.messages.server.Joined" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-81.5" y="-26.333333333333314" />
+      <point x="103.33333333333331" y="-440.9166666666667" />
+      <point x="103.33333333333331" y="-336.75" />
+      <point x="-95.00000000000006" y="-336.75" />
+      <point x="-95.00000000000006" y="-204.95833333333337" />
+      <point x="37.291666666666686" y="-204.95833333333337" />
+      <point x="37.291666666666686" y="-180.72916666666669" />
+      <point x="63.333333333333314" y="-180.72916666666669" />
+      <point x="-15.0" y="38.5" />
+    </edge>
+    <edge source="capstone.networking.messages.server.HandleSet" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-0.0" y="61.0" />
+      <point x="253.5000000000001" y="-194.70833333333337" />
+      <point x="78.33333333333331" y="-194.70833333333337" />
+      <point x="-0.0" y="-38.5" />
+    </edge>
+    <edge source="capstone.networking.messages.client.SendTurnFinishedMessage" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-10.666666666666686" y="-49.5" />
+      <point x="-272.3333333333334" y="-147.5" />
+      <point x="-81.5" y="-15.0" />
+    </edge>
+    <edge source="capstone.networking.QwirkleClient.ReadThread" target="capstone.networking.QwirkleClient" relationship="INNER_CLASS">
+      <point x="0.0" y="-38.5" />
+      <point x="501.0" y="216.75" />
+      <point x="581.0" y="216.75" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="capstone.networking.QwirkleClient.WriteThread" target="capstone.networking.QwirkleClient" relationship="INNER_CLASS">
+      <point x="0.0" y="-38.5" />
+      <point x="661.0" y="216.75" />
+      <point x="581.0" y="216.75" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="capstone.networking.messages.client.WaitingForGame" target="capstone.networking.messages.Message" relationship="GENERALIZATION">
+      <point x="-90.5" y="14.0" />
+      <point x="151.33333333333331" y="341.66666666666663" />
+      <point x="73.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.96" showDependencies="false" x="114.9583333333328" y="-229.16666666666674" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
